@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="" id="body">
+    <div id="settings" class="icon" onclick="settingOpen();"></div>
+    <div class="settingpopup" id="settingpopup">
+       <p>Color Themes</p>
+       <button class="theme" onclick="themeBasic();">Basic</button>
+       <button class="theme" onclick="themeDark();">Dark</button>
+       <button class="theme" onclick="themeColorful();">Chaotic</button>
+       <div class="closeicon">
+           <button class="icon" id="close" onclick="settingClose();"></button>
+       </div> 
+    </div>
+    <h2>DOWNLOAD SONGS</h2>
+    <div class="searchbar">
+        <input type="text" id="search">
+        <button class="icon"></button>
+    </div>
+    <div class="searchoptions">
+        <div id="fav" class="icon songfav"></div>
+        <select id="select">
+            <option value="alpha">A - Z</option>
+            <option value="alphaRev">Z - A</option>
+            <option value="duration">Duration long</option>
+            <option value="durationRev">Duration short</option>
+            <option value="default">Sort By ..</option>
+        </select>
+    </div>
+    <div id="songlist"></div>
+    </div>
+    <audio controls preload="metadata" class="songsrc" src="songs/Winning - NEFFEX.mp3"></audio>
+    <audio controls preload="metadata" class="songsrc" src="songs/Play Dead - NEFFEX.mp3"></audio>
+    <audio controls preload="metadata" class="songsrc" src="songs/Immortal - NEFFEX.mp3"></audio>
+    <audio controls preload="metadata" class="songsrc" src="songs/Go! - NEFFEX.mp3"></audio>
+    <audio controls preload="metadata" class="songsrc" src="songs/Better Days - NEFFEX.mp3"></audio>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
