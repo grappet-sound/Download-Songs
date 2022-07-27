@@ -1,2 +1,2 @@
 # Download-Songs
-https://github.com/grappet-sound/Download-Songs.git
+https://grappet-sound.github.io/Download-Songs/
